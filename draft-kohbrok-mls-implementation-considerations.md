@@ -52,7 +52,7 @@ when, and only when, they appear in all capitals, as shown here.
 
 The security of a group hinges on every member having access to a good source of
 entropy. To make the protocol more robust in environments with only weak,
-intermitent (or even no) external sources of entropy, each MLS client MUST
+intermitent (or even no) external sources of entropy, each MLS client SHOULD
 maintain a persistant `entropy_pool` value which is initialized to a uniform
 random octet string (e.g. using the operating system's Random Number Generator
 (RNG)) of length `KDF.Nh`, where `KDF` is the KDF supported by the client's
