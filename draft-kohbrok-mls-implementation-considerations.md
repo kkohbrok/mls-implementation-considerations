@@ -170,7 +170,11 @@ overall entropy in the pool.
 
 This document has no IANA actions.
 
+# Contributors
 
+* Joel Alwen \\
+  Wickr \\
+  joel.alwen@wickr.com
 
 --- back
 
