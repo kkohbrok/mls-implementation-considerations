@@ -156,6 +156,15 @@ quality of the gathered entropy.
 MLS clients SHOULD inject `internal_entropy` whenever processing an update from
 another party in any of their groups.
 
+### External Entropy Sources
+
+The OS' RNG is the primary source for fresh entropy for injection into the
+entropy pool and MUST be used whenever a `fresh_value` is retrieved. However,
+the entropy pool can benefit from other external sources as well. For example,
+{{!RFC8937}} proposes the injection of the function of a party's long term key
+into the entropy pool. Similarly, exported keys from other cryptographic
+security protocols such as TLS can be leveraged to improve the quality of the
+overall entropy in the pool.
 
 # IANA Considerations
 
