@@ -1,0 +1,83 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2021-08-03T00:26:22.011767+00:00",
+  "repo": "kkohbrok/mls-implementation-considerations",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjYwODIyMjc2",
+      "title": "An entropy pool design for MLS",
+      "url": "https://github.com/kkohbrok/mls-implementation-considerations/pull/1",
+      "state": "OPEN",
+      "author": "kkohbrok",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "kkohbrok"
+      ],
+      "labels": [],
+      "body": "This PR is based on the changes introduced in https://github.com/mlswg/mls-protocol/pull/467 and is joint work with @psyoptix.",
+      "createdAt": "2021-06-03T11:21:31Z",
+      "updatedAt": "2021-06-03T11:42:13Z",
+      "baseRepository": "kkohbrok/mls-implementation-considerations",
+      "baseRefName": "main",
+      "baseRefOid": "3132de52b407fbe08b0c1647227920e445ea4f1a",
+      "headRepository": "kkohbrok/mls-implementation-considerations",
+      "headRefName": "konrad/entropy-improvements",
+      "headRefOid": "1e8dae761289e760d678201162d04a3669acf0e5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
