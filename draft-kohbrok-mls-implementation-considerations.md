@@ -42,7 +42,7 @@ This document aims to provide guidance to implementers of the Messaging
 Layer Security (MLS) protocol specification {{?I-D.ietf-mls-protocol}} in a
 variety of ways.
 
-The goal of this document is also to amend the existing guidance given in the
+The goal of this document is also to extend the existing guidance given in the
 MLS architecture document {{?I-D.ietf-mls-architecture}} on how to use MLS
 securely in a larger context.
 
