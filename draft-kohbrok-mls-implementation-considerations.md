@@ -28,15 +28,27 @@ informative:
 --- abstract
 
 The MLS protocol is a large and complex security protocol. In this document, we
-provide guidance and recommendations for implementers of MLS regarding security,
-efficiency and robustness.
+provide guidance and recommendations for implementers of MLS regarding
+correctness, security, efficiency and robustness.
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+Implementing the specification of a complex security protocol in a correct and
+secure manner is a challenging task.
 
+This document aims to provide guidance to implementers of the Messaging
+Layer Security (MLS) protocol specification {{?I-D.ietf-mls-protocol}} in a
+variety of ways.
+
+The goal of this document is also to extend the existing guidance given in the
+MLS architecture document {{?I-D.ietf-mls-architecture}} on how to use MLS
+securely in a larger context.
+
+Finally, this document is also meant to provide examples on how to fill several
+of the gaps that the protocol specification and architective document have left
+open, but that are likely going to be needed by a large number of MLS users.
 
 # Conventions and Definitions
 
