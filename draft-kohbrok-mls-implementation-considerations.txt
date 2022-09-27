@@ -4,8 +4,8 @@
 
 Network Working Group                                         K. Kohbrok
 Internet-Draft                                                      Wire
-Intended status: Informational                               1 June 2021
-Expires: 3 December 2021
+Intended status: Informational                         27 September 2022
+Expires: 31 March 2023
 
 
     The Messaging Layer Security (MLS) Implementation Considerations
@@ -15,7 +15,7 @@ Abstract
 
    The MLS protocol is a large and complex security protocol.  In this
    document, we provide guidance and recommendations for implementers of
-   MLS regarding security, efficiency and robustness.
+   MLS regarding correctness, security, efficiency and robustness.
 
 Discussion Venues
 
@@ -43,11 +43,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 December 2021.
+   This Internet-Draft will expire on 31 March 2023.
 
 Copyright Notice
 
-   Copyright (c) 2021 IETF Trust and the persons identified as the
+   Copyright (c) 2022 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -55,9 +55,9 @@ Copyright Notice
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
-   extracted from this document must include Simplified BSD License text
-   as described in Section 4.e of the Trust Legal Provisions and are
-   provided without warranty as described in the Simplified BSD License.
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
 
 Table of Contents
 
@@ -65,13 +65,29 @@ Table of Contents
    2.  Conventions and Definitions
    3.  Security Considerations
    4.  IANA Considerations
-   5.  Normative References
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
    Acknowledgments
    Author's Address
 
 1.  Introduction
 
-   TODO Introduction
+   Implementing the specification of a complex security protocol in a
+   correct and secure manner is a challenging task.
+
+   This document aims to provide guidance to implementers of the
+   Messaging Layer Security (MLS) protocol specification
+   [I-D.ietf-mls-protocol] in a variety of ways.
+
+   The goal of this document is also to extend the existing guidance
+   given in the MLS architecture document [I-D.ietf-mls-architecture] on
+   how to use MLS securely in a larger context.
+
+   Finally, this document is also meant to provide examples on how to
+   fill several of the gaps that the protocol specification and
+   architective document have left open, but that are likely going to be
+   needed by a large number of MLS users.
 
 2.  Conventions and Definitions
 
@@ -89,16 +105,36 @@ Table of Contents
 
    This document has no IANA actions.
 
-5.  Normative References
+5.  References
+
+5.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
-              <https://datatracker.ietf.org/doc/html/rfc2119>.
+              <https://www.rfc-editor.org/rfc/rfc2119>.
 
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://datatracker.ietf.org/doc/html/rfc8174>.
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+5.2.  Informative References
+
+   [I-D.ietf-mls-architecture]
+              Beurdouche, B., Rescorla, E., Omara, E., Inguva, S., Kwon,
+              A., and A. Duric, "The Messaging Layer Security (MLS)
+              Architecture", Work in Progress, Internet-Draft, draft-
+              ietf-mls-architecture-09, 19 August 2022,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-mls-
+              architecture-09>.
+
+   [I-D.ietf-mls-protocol]
+              Barnes, R., Beurdouche, B., Robert, R., Millican, J.,
+              Omara, E., and K. Cohn-Gordon, "The Messaging Layer
+              Security (MLS) Protocol", Work in Progress, Internet-
+              Draft, draft-ietf-mls-protocol-16, 11 July 2022,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-mls-
+              protocol-16>.
 
 Acknowledgments
 
@@ -108,5 +144,4 @@ Author's Address
 
    Konrad Kohbrok
    Wire
-
    Email: konrad@wire.com
