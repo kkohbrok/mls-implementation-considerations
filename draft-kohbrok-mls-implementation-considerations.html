@@ -6,6 +6,7 @@
 <meta content="initial-scale=1.0" name="viewport">
 <title>The Messaging Layer Security (MLS) Implementation Considerations</title>
 <meta content="Konrad Kohbrok" name="author">
+<meta content="Franziskus Kiefer" name="author">
 <meta content="
        The MLS protocol is a large and complex security protocol. In this document, we
 provide guidance and recommendations for implementers of MLS regarding
@@ -1040,7 +1041,7 @@ svg :is([stroke="fill"], [fill^="#fff"]) {
 <td class="right">September 2022</td>
 </tr></thead>
 <tfoot><tr>
-<td class="left">Kohbrok</td>
+<td class="left">Kohbrok &amp; Kiefer</td>
 <td class="center">Expires 1 April 2023</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
@@ -1060,11 +1061,15 @@ svg :is([stroke="fill"], [fill^="#fff"]) {
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
 <dd class="expires"><time datetime="2023-04-01">1 April 2023</time></dd>
-<dt class="label-authors">Author:</dt>
+<dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
       <div class="author-name">K. Kohbrok</div>
 <div class="org">Phoenix R&amp;D</div>
+</div>
+<div class="author">
+      <div class="author-name">F. Kiefer</div>
+<div class="org">Cryspen</div>
 </div>
 </dd>
 </dl>
@@ -1085,7 +1090,7 @@ correctness, security, efficiency and robustness.<a href="#section-abstract-1" c
   Messaging Layer Security Working Group mailing list (mls@ietf.org),
   which is archived at <span><a href="https://mailarchive.ietf.org/arch/browse/mls/">https://mailarchive.ietf.org/arch/browse/mls/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
 <p id="section-note.1-3">Source for this draft and an issue tracker can be found at
-  <span><a href="https://github.com/kkohbrok/mls-implementations">https://github.com/kkohbrok/mls-implementations</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
+  <span><a href="https://github.com/kkohbrok/mls-implementation-considerations">https://github.com/kkohbrok/mls-implementation-considerations</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -1162,7 +1167,7 @@ correctness, security, efficiency and robustness.<a href="#section-abstract-1" c
             <p id="section-toc.1-1.6.1"><a href="#appendix-A" class="xref"></a><a href="#name-acknowledgments" class="xref">Acknowledgments</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#appendix-B" class="xref"></a><a href="#name-authors-address" class="xref">Author's Address</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#appendix-B" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a></p>
 </li>
         </ul>
 </nav>
@@ -1258,8 +1263,8 @@ when, and only when, they appear in all capitals, as shown here.<a href="#sectio
 </div>
 <div id="authors-addresses">
 <section id="appendix-B">
-      <h2 id="name-authors-address">
-<a href="#name-authors-address" class="section-name selfRef">Author's Address</a>
+      <h2 id="name-authors-addresses">
+<a href="#name-authors-addresses" class="section-name selfRef">Authors' Addresses</a>
       </h2>
 <address class="vcard">
         <div dir="auto" class="left"><span class="fn nameRole">Konrad Kohbrok</span></div>
@@ -1267,6 +1272,14 @@ when, and only when, they appear in all capitals, as shown here.<a href="#sectio
 <div class="email">
 <span>Email:</span>
 <a href="mailto:konrad@phnx.im" class="email">konrad@phnx.im</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Franziskus Kiefer</span></div>
+<div dir="auto" class="left"><span class="org">Cryspen</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:franziskuskiefer@gmail.com" class="email">franziskuskiefer@gmail.com</a>
 </div>
 </address>
 </section>

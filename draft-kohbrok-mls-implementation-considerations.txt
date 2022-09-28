@@ -4,8 +4,9 @@
 
 Network Working Group                                         K. Kohbrok
 Internet-Draft                                               Phoenix R&D
-Intended status: Informational                         28 September 2022
-Expires: 1 April 2023
+Intended status: Informational                                 F. Kiefer
+Expires: 1 April 2023                                            Cryspen
+                                                       28 September 2022
 
 
     The Messaging Layer Security (MLS) Implementation Considerations
@@ -26,7 +27,7 @@ Discussion Venues
    at https://mailarchive.ietf.org/arch/browse/mls/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/kkohbrok/mls-implementations.
+   https://github.com/kkohbrok/mls-implementation-considerations.
 
 Status of This Memo
 
@@ -69,7 +70,7 @@ Table of Contents
      5.1.  Normative References
      5.2.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -140,8 +141,13 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
    Konrad Kohbrok
    Phoenix R&D
    Email: konrad@phnx.im
+
+
+   Franziskus Kiefer
+   Cryspen
+   Email: franziskuskiefer@gmail.com
