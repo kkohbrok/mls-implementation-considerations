@@ -17,6 +17,11 @@ author:
     name: Konrad Kohbrok
     organization: Phoenix R&D
     email: konrad@phnx.im
+ -
+    ins: F. Kiefer
+    name: Franziskus Kiefer
+    organization: Cryspen
+    email: franziskuskiefer@gmail.com
 
 normative:
   RFC2119:
