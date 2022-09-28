@@ -15,8 +15,8 @@ author:
  -
     ins: K. Kohbrok
     name: Konrad Kohbrok
-    organization: Wire
-    email: konrad@wire.com
+    organization: Phoenix R&D
+    email: konrad@phnx.im
 
 normative:
   RFC2119:
