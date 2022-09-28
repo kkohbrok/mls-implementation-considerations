@@ -2,9 +2,9 @@
 
 This is the working area for the IETF [MLS Working Group](https://datatracker.ietf.org/wg/mls/documents/) Internet-Draft, "The Messaging Layer Security (MLS) Implementation Considerations".
 
-* [Editor's Copy](https://kkohbrok.github.io/mls-implementations/#go.draft-ietf-mls-implementations.html)
-* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-mls-implementations)
-* [Compare Editor's Copy to Working Group Draft](https://kkohbrok.github.io/mls-implementations/#go.draft-ietf-mls-implementations.diff)
+* [Editor's Copy](https://kkohbrok.github.io/mls-implementation-considerations/#go.draft-ietf-mls-implementations.html)
+* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-mls-implementation-considerations) (not uploaded yet)
+* [Compare Editor's Copy to Working Group Draft](https://kkohbrok.github.io/mls-implementation-considerations/#go.draft-ietf-mls-implementations.diff)
 
 ## Building the Draft
 
